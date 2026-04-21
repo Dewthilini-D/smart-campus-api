@@ -5,9 +5,9 @@ import java.util.List;
 
 public class Room {
     
-    private String id;              
-    private String name;           
-    private int capacity;           
+    private String id;              // Unique identifier, e.g., "LIB-301"
+    private String name;            // Human-readable name, e.g., "Library Quiet Study"
+    private int capacity;           // Maximum occupancy for safety regulations
     private List<String> sensorIds = new ArrayList<>();  // IDs of sensors in this room
     
     // Default constructor (required for JSON deserialization)
