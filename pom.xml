@@ -39,6 +39,18 @@
             <version>2.32</version>
             <scope>compile</scope>
         </dependency>
+        <dependency>
+            <groupId>org.glassfish.grizzly</groupId>
+            <artifactId>grizzly-http-server</artifactId>
+            <version>4.1.0-M1</version>
+            <type>bundle</type>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish.jersey.containers</groupId>
+            <artifactId>jersey-container-grizzly2-http</artifactId>
+            <version>4.0.0-M2</version>
+            <type>jar</type>
+        </dependency>
     </dependencies>
 
     
