@@ -4,9 +4,9 @@ import java.util.UUID;
 
 public class SensorReading {
     
-    private String id;          // Unique reading event ID (UUID)
-    private long timestamp;     // Epoch time (ms) when reading was captured
-    private double value;       // The actual metric value recorded
+    private String id;          
+    private long timestamp;     
+    private double value;       
     
     // Default constructor (required for JSON deserialization)
     public SensorReading() {
